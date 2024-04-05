@@ -1,0 +1,16 @@
+{
+  "name": "skilledup",
+  "version": "1.0.0",
+  "description": "skilledUp main front-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhinandan-verma",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^10.5.1",
+    "tailwindcss": "^3.4.3"
+  }
+}
