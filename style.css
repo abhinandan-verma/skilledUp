@@ -1,3 +1,99 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.top-bar{
+    background-color: #fdc0f3;
+    margin: 0%;
+}
+
+.top-bar h1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.top-bar-container{
+    display: flex;
+    justify-content: space-around;
+    align-self: space-around;
+}
+
+.card{
+    background-color: #4a8be7;
+    margin: 3px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-self: space-around;
+    border-radius: 10px;
+}
+
+.card h1{
+    color: white;
+    font-size: 5.2rem;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+}
+
+.card h3{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer{
+    background-color: #060005;
+    margin: 0%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-self: space-around;
+    color: black;
+    text-align: left;
+}
+
+.footer-content{
+    display: block;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    background-color: #060005;
+}
+
+.footer-content h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.footer-content h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.footer-content p{
+    font-size: 1.0rem;
+    text-align: center;
+    margin-left: 15px;
+    color: white;
+}
+
+.h5{
+    color: white;
+}
